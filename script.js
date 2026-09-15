@@ -165,14 +165,14 @@ function toggleLanguage() {
 }
 
 function downloadResume() {
-    const fileTh = "Panyakorn_khaiwchoo_Resume TH.jpg";
-    const fileEng = "Panyakorn_khaiwchoo_Resume ENG.jpg";
+    const fileTh = "img/Panyakorn_khaiwchoo_Resume TH.jpg";
+    const fileEng = "img/Panyakorn_khaiwchoo_Resume ENG.jpg";
     const targetFile = (currentLang === "th") ? fileTh : fileEng;
     const downloadName = (currentLang === "th") ? "Panyakorn_khaiwchoo_Resume TH.jpg" : "Panyakorn_khaiwchoo_Resume ENG.jpg";
 
     const link = document.createElement("a");
-    link.href = encodeURI(targetFile);
-    link.download = targetFile;
+    link.href = targetFile;
+    link.download = downloadName;
     link.target = "_blank";
     document.body.appendChild(link);
     link.click();
