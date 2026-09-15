@@ -137,7 +137,7 @@ const i18nData = {
         title_contact: "Contact Information",
         contact_phone: "Phone",
         contact_email: "Email",
-        contact_github: "GitHub / Workings"
+        contact_github: "GitHub"
     }
 };
 
