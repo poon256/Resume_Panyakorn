@@ -54,7 +54,7 @@ const i18nData = {
         `,
 
         title_education: "ประวัติการศึกษา",
-        edu1_year: "2566 - 2569 (ปี 4)",
+        edu1_year: "2566 - 2570 (ปี 4)",
         edu1_degree: "ระดับปริญญาตรี (วศ.บ.)",
         edu1_school: "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ (RMUTK)",
         edu1_detail: "คณะวิศวกรรมศาสตร์ สาขาวิศวกรรมคอมพิวเตอร์และระบบไอโอที | เกรดเฉลี่ย: 2.95",
@@ -124,7 +124,7 @@ const i18nData = {
         `,
 
         title_education: "Education",
-        edu1_year: "4th Year (Graduating 2026 / 2570)",
+        edu1_year: "4th Year (Graduating 2026 / 2027)",
         edu1_degree: "Bachelor's Degree (B.Eng.)",
         edu1_school: "Rajamangala University of Technology Krungthep (RMUTK)",
         edu1_detail: "Computer Engineering and IoT System | GPA: 2.95",
@@ -165,15 +165,14 @@ function toggleLanguage() {
 }
 
 function downloadResume() {
-    // ระบุพาธไปยังโฟลเดอร์ img/
-    const fileTh = "img/Panyakorn_khaiwchoo_Resume TH.jpg";
-    const fileEng = "img/Panyakorn_khaiwchoo_Resume ENG.jpg";
+    const fileTh = "Panyakorn_khaiwchoo_Resume TH.jpg";
+    const fileEng = "Panyakorn_khaiwchoo_Resume ENG.jpg";
     const targetFile = (currentLang === "th") ? fileTh : fileEng;
-    const downloadName = (currentLang === "th") ? "Panyakorn_Resume_TH.jpg" : "Panyakorn_Resume_ENG.jpg";
+    const downloadName = (currentLang === "th") ? "Panyakorn_khaiwchoo_Resume TH.jpg" : "Panyakorn_khaiwchoo_Resume ENG.jpg";
 
     const link = document.createElement("a");
-    link.href = targetFile;
-    link.download = downloadName;
+    link.href = encodeURI(targetFile);
+    link.download = targetFile;
     link.target = "_blank";
     document.body.appendChild(link);
     link.click();
