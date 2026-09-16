@@ -73,7 +73,7 @@ const i18nData = {
         nav_projects: "Projects",
         nav_education: "Education",
         nav_contact: "Contact",
-        btn_download: "Download CV",
+        btn_download: "Download",
         lang_label: "ไทย 🇹🇭",
         
         hero_name: "Mr. Panyakorn Khaiwchoo",
