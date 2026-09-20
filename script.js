@@ -51,6 +51,24 @@ const i18nData = {
             <p style="font-size: 0.9rem; color: #64748b;">หน้าสำหรับบันทึกและส่งคำขอจัดซื้อเมล็ดกาแฟ พร้อมคำนวณต้นทุนและจับคู่ข้อมูลคู่ค้า (Supplier) อัตโนมัติ</p>
             <img src="img/c2.png" class="workflow-preview-img" alt="Purchase Requirement Module">
             <div class="img-caption">หน้าจอระบบหลังบ้าน: โมดูล Purchase Requirement สำหรับสร้างใบขอสั่งซื้อวัตถุดิบกาแฟ</div>
+
+            <h4 style="margin-top: 1.2rem; color: #0f172a;">โมดูลบันทึกและเพิ่มใบเสนอราคา (Quotation)</h4>
+            <p style="font-size: 0.9rem; color: #64748b;">หน้าสำหรับบันทึกและสร้างใบเสนอราคาให้ลูกค้า</p>
+            <img src="img/c3.png" class="workflow-preview-img" alt="Quotation Module">
+            <div class="img-caption">หน้าจอระบบหลังบ้าน: โมดูล Quotation สำหรับสร้างใบเสนอราคา</div>
+            
+            <h4 style="margin-top: 1.2rem; color: #0f172a;">โมดูลบันทึกและจัดการแบบแผนการผลิต (Batch Production)</h4>
+            <p style="font-size: 0.9rem; color: #64748b;">หน้าสำหรับวางแผน กำหนดรอบ และติดตามล็อตการผลิต</p>
+            <img src="img/c4.png" class="workflow-preview-img" alt="Batch Management Module">
+            <div class="img-caption">หน้าจอระบบหลังบ้าน: โมดูล Batch สำหรับจัดการและติดตามรอบการผลิต</div>
+            
+            <h4 style="margin-top: 1.2rem; color: #0f172a;">โมดูลบันทึกและจัดการพนักงาน (Employee Management)</h4>
+            <p style="font-size: 0.9rem; color: #64748b;">หน้าสำหรับบันทึกข้อมูล ประวัติ และจัดการสิทธิ์การเข้าใช้งานของพนักงาน</p>
+            <img src="img/c5.png" class="workflow-preview-img" alt="Employee Management Module">
+            <img src="img/e1.png" class="workflow-preview-img" alt="Employee Management Module">
+            <img src="img/e2.png" class="workflow-preview-img" alt="Employee Management Module">
+            <img src="img/e3.png" class="workflow-preview-img" alt="Employee Management Module">
+            <div class="img-caption">หน้าจอระบบหลังบ้าน: โมดูล Employee สำหรับจัดการข้อมูลและสิทธิ์พนักงาน</div>          
         `,
 
         title_education: "ประวัติการศึกษา",
