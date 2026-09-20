@@ -138,6 +138,24 @@ const i18nData = {
             <p style="font-size: 0.9rem; color: #64748b;">Workflow view illustrating automated purchase requisitions for coffee bean supplies mapped to designated vendors.</p>
             <img src="img/c2.png" class="workflow-preview-img" alt="Purchase Requirement Module">
             <div class="img-caption">BackEnd Module: Purchase Requirement requisition interface with inventory cost calculations.</div>
+
+
+            <h4 style="margin-top: 1.2rem; color: #0f172a;">Quotation Management Module</h4>
+            <p style="font-size: 0.9rem; color: #64748b;">Page for recording and generating sales quotations for clients.</p>
+            <img src="img/c3.png" class="workflow-preview-img" alt="Quotation Module">
+            <div class="img-caption">Back-office Interface: Quotation module for creating quotations</div>
+            
+            <h4 style="margin-top: 1.2rem; color: #0f172a;">Batch Production Management Module</h4>
+            <p style="font-size: 0.9rem; color: #64748b;">Page for production planning, setting output quantities, and tracking batch lots.</p>
+            <img src="img/c4.png" class="workflow-preview-img" alt="Batch Management Module">
+            <div class="img-caption">Back-office Interface: Batch module for managing and tracking production cycles</div>
+            
+            <h4 style="margin-top: 1.2rem; color: #0f172a;">Employee Management Module</h4>
+            <p style="font-size: 0.9rem; color: #64748b;">Page for recording employee profiles, managing access permissions, handling leave requests, processing payroll, and syncing data with Accounting.</p>
+            <img src="img/e1.png" class="workflow-preview-img" alt="Employee Management Module 1">
+            <img src="img/e2.png" class="workflow-preview-img" alt="Employee Management Module 2">
+            <img src="img/e3.png" class="workflow-preview-img" alt="Employee Management Module 3">
+            <div class="img-caption">Back-office Interface: Employee module for managing staff data and access rights</div>
         `,
 
         title_education: "Education",
