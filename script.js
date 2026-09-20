@@ -58,7 +58,7 @@ const i18nData = {
             <div class="img-caption">หน้าจอระบบหลังบ้าน: โมดูล Quotation สำหรับสร้างใบเสนอราคา</div>
             
             <h4 style="margin-top: 1.2rem; color: #0f172a;">โมดูลบันทึกและจัดการแบบแผนการผลิต (Batch Production)</h4>
-            <p style="font-size: 0.9rem; color: #64748b;">หน้าสำหรับวางแผน กำหนดรอบ และติดตามล็อตการผลิต</p>
+            <p style="font-size: 0.9rem; color: #64748b;">หน้าสำหรับวางแผน กำหนดจำนวนผลิต และติดตามล็อตการผลิต</p>
             <img src="img/c4.png" class="workflow-preview-img" alt="Batch Management Module">
             <div class="img-caption">หน้าจอระบบหลังบ้าน: โมดูล Batch สำหรับจัดการและติดตามรอบการผลิต</div>
             
