@@ -63,7 +63,7 @@ const i18nData = {
             <div class="img-caption">หน้าจอระบบหลังบ้าน: โมดูล Batch สำหรับจัดการและติดตามรอบการผลิต</div>
             
             <h4 style="margin-top: 1.2rem; color: #0f172a;">โมดูลบันทึกและจัดการพนักงาน (Employee Management)</h4>
-            <p style="font-size: 0.9rem; color: #64748b;">หน้าสำหรับบันทึกข้อมูล ประวัติ และจัดการสิทธิ์การเข้าใช้งานของพนักงาน</p>
+            <p style="font-size: 0.9rem; color: #64748b;">หน้าสำหรับบันทึกข้อมูล ประวัติ และจัดการสิทธิ์การเข้าใช้งานของพนักงาน การลางาน เเละ การจ่ายเงินเดือนเเละส่งข้อมูลไปบัญชี(Accounting)</p>
             <img src="img/e1.png" class="workflow-preview-img" alt="Employee Management Module1">
             <img src="img/e2.png" class="workflow-preview-img" alt="Employee Management Module2">
             <img src="img/e3.png" class="workflow-preview-img" alt="Employee Management Module3">
