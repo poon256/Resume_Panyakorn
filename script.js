@@ -14,7 +14,7 @@ const i18nData = {
         btn_view_work: "คลิกดูการทำงาน ➔",
         modal_work_label: "ขั้นตอนและสถาปัตยกรรมการทำงานจริง:",
 
-        proj1_title: "ระบบคาดการณ์การกระจายตัวของปลาทูในอ่าวไทย โดยใช้ AI (2569 - ปัจจุบัน)",
+        proj1_title: "ระบบคาดการณ์การกระจายตัวของปลาทูในอ่าวไทย โดยใช้ AI (2568 - ปัจจุบัน)",
         proj1_short: "วิเคราะห์ข้อมูลสิ่งแวดล้อมทางทะเลเพื่อคาดการณ์ปริมาณการจับปลาทูผ่าน Machine Learning และ Web Dashboard",
         proj1_desc: `
             <p>ระบบคาดการณ์แบบครบวงจรที่ผสาน Machine Learning บน Python เข้ากับ Web Dashboard ด้วย PHP และ MySQL:</p>
@@ -101,7 +101,7 @@ const i18nData = {
         btn_view_work: "View Workflow ➔",
         modal_work_label: "Execution Process & Architecture:",
 
-        proj1_title: "Mackerel Distribution Prediction System Using AI (2026 - Present)",
+        proj1_title: "Mackerel Distribution Prediction System Using AI (2025 - Present)",
         proj1_short: "Predicting mackerel distribution and catch volume in the Upper Gulf of Thailand via Machine Learning and Web Dashboard.",
         proj1_desc: `
             <p>Comprehensive predictive ecosystem integrating Python ML models with PHP web dashboards:</p>
